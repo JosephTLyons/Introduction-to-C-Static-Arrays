@@ -16,3 +16,6 @@ Declaring an array is fairly straight-forward:
 - int myInt[5];
 - char myChar[10];
 
+### Accessing Contents of an Array:
+
+Retrieving the contents of a single cell in an array, or the entire contents of the array, are both fairly easy tasks.  Before we can do that, we must know how the cells of the array are numbered.  Though one would probably be led to believe that the first element of an array is stored in cell one, this is actually not the case. The first element of an array is actually stored at cell 0.  This means that for any n element in the array, where n is the actual position, we would specify n - 1.
