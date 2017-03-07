@@ -11,7 +11,8 @@ Declaring an array is fairly straight-forward:
 3. Give the array its size by placing the the size value inside of the subscript operator **[x]** (where x denotes the size of the array)
 4. End with a statement terminator **;**
 
-Examples:
+#### Examples of Declaring an Array:
 
 - int myInt[5];
 - char myChar[10];
+
