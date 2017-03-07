@@ -6,12 +6,12 @@ What is an array and how is it useful?  By now, you have already discovered and 
 ### Declaration:
 Declaring an array is fairly straight-forward:
 
-*Specify the data type (int, char, float, double)
-*Name the array
-*Give the array its size by placing the the size value inside of the subscript operator **[x]** (where x denotes the size of the array)
-*End with a statement terminator **;**
+1. Specify the data type (int, char, float, double)
+2. Name the array
+3. Give the array its size by placing the the size value inside of the subscript operator **[x]** (where x denotes the size of the array)
+4. End with a statement terminator **;**
 
 Examples:
 
--int myInt[5];
--char myChar[10];
+- int myInt[5];
+- char myChar[10];
