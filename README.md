@@ -13,16 +13,16 @@ Declaring an array is fairly straight-forward:
 
 #### Examples of Declaring an Array:
 
-- int myInt[5]; // Creates an array of 5 elements, ranging from indices 0 through 4 (More on this soon)
-- char myChar[10]; // Creates an array of 10 elements, ranging from indices 0 through 9
+- int myIntArray[5]; // Creates an array of 5 elements, ranging from indices 0 through 4 (More on this soon)
+- char myCharArray[10]; // Creates an array of 10 elements, ranging from indices 0 through 9
 
 Arrays can also be initialized the moment they are created as well via the initilizer list.  Simple add an **=**, a pair of brackets **{}** and the list of numbers you would like to initialize the array to.  **NOTE** - it is imporpant to know that the initializer list cannot be larger than the capacity of the 
 
 
 #### Examples of Initializing an Array Upon Declaration:
 
-- int myInt[5] = {}; // Creates an empty array, where each element is a null terminator (More on this soon)
-- char myChar[10] = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1); // Creates an array with elements initialized to these values
+- int myIntArray[5] = {}; // Creates an empty array, where each element is a null terminator (More on this soon)
+- char myCharArray[10] = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1); // Creates an array with elements initialized to these values
 
 ### Accessing Contents of an Array:
 
