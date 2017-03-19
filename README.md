@@ -1,7 +1,7 @@
 ## Introduction to Static C++ Arrays
 ### What is an array?
 
-What is an array and how is it useful?  By now, you have already discovered and used the various data types available in C++: int, char, float, and double.  In the most simple definition, arrays are just single structures that are capable of holding many instances of these data types.  For instance, a single character will not suffice if the user wishes to hold a static string of text, such as "Hello, World!"  Alternatitely, it would be overkill to declare an individual variable for each character in the string.  Situations like these call for the use of an array.
+What is an array and how is it useful?  By now, you have already discovered and used the various data types available in C++: int, char, float, and double.  In the most simple definition, arrays are just single structures that are capable of holding many instances of these data types.  For instance, a single character will not suffice if the user wishes to hold a static string of text, such as "Hello, World!"  Alternatively, it would be overkill to declare an individual variable for each character in the string.  Situations like these call for the use of an array.
 
 ### Declaration:
 Declaring an array is fairly straight-forward:
@@ -16,7 +16,7 @@ Declaring an array is fairly straight-forward:
 - int myIntArray[5]; // Creates an array of 5 elements, ranging from indices 0 through 4 (More on this soon)
 - char myCharArray[10]; // Creates an array of 10 elements, ranging from indices 0 through 9
 
-Arrays can also be initialized the moment they are created as well via the initilizer list.  Simple add an **=**, a pair of brackets **{}** and the list of numbers you would like to initialize the array to.  **NOTE** - it is imporpant to know that the initializer list cannot be larger than the capacity of the 
+Arrays can also be initialized the moment they are created as well via the initializer list.  Simple add an **=**, a pair of brackets **{}** and the list of numbers you would like to initialize the array to.  **NOTE** - it is important to know that the initializer list cannot be larger than the capacity of the array.
 
 
 #### Examples of Initializing an Array Upon Declaration:
